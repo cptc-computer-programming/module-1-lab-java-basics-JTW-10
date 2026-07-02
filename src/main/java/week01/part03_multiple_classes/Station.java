@@ -3,8 +3,8 @@ package week01.part03_multiple_classes;
 
 public class Station {
 
-    // TODO: Print exactly: Entered station.
-    public static void enter() {
-        // Your code here
+    
+    public static void main() {
+        System.out.println("Entered station.");
     }
 }
