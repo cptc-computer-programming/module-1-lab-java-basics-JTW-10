@@ -4,7 +4,7 @@ package week01.part03_multiple_classes;
 public class Station {
 
     
-    public static void main() {
+    public static void enter() {
         System.out.println("Entered station.");
     }
 }
