@@ -7,19 +7,11 @@ public class TransitApp {
         startTrip();
     }
 
-    // TODO: main must call this method.
-    // This method must call methods in OTHER classes in this exact order:
-    //   1) Station.enter()
-    //   2) Ticket.scan()
-    //   3) Train.depart()
-    //
-    // Print exactly:
-    // Trip started.
-    // Entered station.
-    // Ticket scanned.
-    // Train departing.
-    // Trip in progress.
     public static void startTrip() {
-        // Your code here
+        System.out.println("Trip started.");
+        Station.enter();
+        Ticket.scan();
+        Train.depart();
+        System.out.println("Trip in progress.");
     }
 }

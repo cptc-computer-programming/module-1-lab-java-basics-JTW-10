@@ -7,12 +7,10 @@ public class MultiLineMessage {
         printChecklist();
     }
 
-    // TODO: Make this print exactly:
-    // Checklist:
-    // - backpack
-    // - water bottle
-    // - notebook
     public static void printChecklist() {
-        // Your code here
+        System.out.println("Checklist:\t");
+        System.out.println("- backpack\t");
+        System.out.println("- water bottle\t");
+        System.out.println("- notebook");
     }
 }
