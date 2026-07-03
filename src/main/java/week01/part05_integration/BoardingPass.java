@@ -3,8 +3,7 @@ package week01.part05_integration;
 
 public class BoardingPass {
 
-    // TODO: Print EXACTLY one line using AirlineMessages.BOARDING_PASS
     public static void generate() {
-        // Your code here
+        System.out.println(AirlineMessages.BOARDING_PASS);
     }
 }
